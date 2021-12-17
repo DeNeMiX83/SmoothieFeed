@@ -1,0 +1,1 @@
+web: gunicorn SmoothieFeed/wsgi --log-file -
