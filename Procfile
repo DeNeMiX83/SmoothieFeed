@@ -1,1 +1,1 @@
-web: gunicorn SmoothieFeed/wsgi --log-file -
+web: gunicorn --pythonpath SmoothieFeed SmoothieFeed.wsgi --log-file -
